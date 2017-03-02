@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+
+}
+header{
+	background: rgba(211, 211, 211, 0.3);
+	display: flex;
+	
+}
+nav li{
+	display: inline;
+	float: left;
+	margin-left: 180px;
+	margin-top: 20px;
+	font-size: 40px;
+	font-family: 'VT323', monospace;
+	float: left;
+	
+}
+a {
+	text-decoration: none;
+	color: #191970;
+	
+}
+header div{
+	display: inline-block;
+
+}
+section{
+	margin-left: 12%
+
+
+}
+nav{
+	margin: auto;
+	display: block
+	padding: 40px;
+	font-family: 'VT323', monospace;
+
+	
+}
+svg {
+  font-weight: 800;
+  font-size: 300px;
+  width: 90%;
+  height: 85%;
+  position:absolute;
+  font-family: 'Luckiest Guy', cursive;
+  
+  font-weight: bold;
+
+
+}
+
+svg mask rect {
+  fill: rgba(255, 255, 255, 1);
+}
+
+svg > rect {
+  fill: white;
+  -webkit-mask: url(#mask);
+  mask: url(#mask);
+}
+video {
+  min-width: 80%;
+  min-height: 80%;
+  width: 100px;
+  height: 540px;
+}
+.classic div text{
+	font-family: 'Satisfy', cursive;
+	font-size: 100px;
+}
+.no-svg- {
+  display: none;
+ } 
+
+.rodape {
+  width: 100%;
+  height: 50px;
+  background: #D3D3D3;
+  text-align: center;
+  margin-top: 3px;
+}
+.rodape span {
+  color: black;
+  line-height: 50px;
+}
+#titulo{
+	font-size: 20px;
+	font-family: 'Anton', sans-serif; 
+}
+ul li p{
+	font-size: 19px;
+	font-family: 'BenchNine', sans-serif;
+	text-orientation:
+	
+	
+
+
+}
+ul li {
+	list-style-type: none;
+	display:;
+	margin-top: px;
+	margin-left: 60px;
+	position: ;
+
+}
+
+div img {
+	float: left;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 85%;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#titulo1{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Luckiest Guy', cursive;
+
+}
+#not{
+	font-size: 36px;
+	font-family: 'Squada One', cursive;
+	width: 80%;
+	text-align: center;
+}
+div div p {
+	font-size: 19px;
+	text-align: justify;
+	width: 80%;
+	font-family: 'Old Standard TT', serif;
+}
+div p {
+	font-size: 19px;
+	text-align: justify;
+	width: 80%;
+	font-family: 'Old Standard TT', serif;
+}
+#tipo{
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Walter Turncoat', cursive;
+}
